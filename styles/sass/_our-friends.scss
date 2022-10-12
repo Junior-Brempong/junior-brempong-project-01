@@ -1,0 +1,31 @@
+@use "typography" as font;
+
+.our-friends {
+    background-color: #c3d3cb;
+    height: 650px;
+    .our-friends-text {
+        text-align: center;
+        font-family: font.$funky-heading-text;
+        font-size: 2.7rem;
+        margin-top: 60px;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+
+    li {
+        width: calc( (100% / 3) - 20px);
+        padding: 25px;
+    }
+
+    }  
+
+}
+
+.our-friends h2{
+    padding-top: 55px;
+}  
+
+.our-friends .img-container {
+    margin-top: 5%;
+}

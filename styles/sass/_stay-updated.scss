@@ -1,0 +1,43 @@
+@use "typography" as font;
+
+.stay-updated{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.stay-updated .wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+// Form specific styling starts
+
+.stay-updated-form {
+    text-align: center;
+    width: 60%;
+    margin-left: 5%;
+        p{
+        font-family: font.$body-text;
+        font-size: 1.1rem;
+        }
+}
+
+#email-address {
+    width: 64%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.stay-updated button{
+    background-color: black;
+    color: white;
+    font-family: font.$heading-text-button;
+    padding: 10px 35px;
+}
+
+.contact-us-bottom {
+    text-align: right;
+}
+
+// form specific styling ends

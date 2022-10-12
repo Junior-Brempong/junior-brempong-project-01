@@ -1,0 +1,247 @@
+@use "typography" as font;
+
+@media (max-width: 1085px) {
+    .blog-posts img {
+        height: 100%;
+    }
+}
+
+@media (max-width: 1008px) {
+    .our-friends {
+        height: 500px;
+    }
+
+    .bottom-nav-wrapper {
+        line-height: 180%;
+    }
+}
+
+@media (max-width: 865px) {
+    .text-nav li{
+        display: none;
+    }
+
+    h1{
+        font-size: 3rem;
+        justify-content: left;
+        margin-top: 0;
+    }
+
+    .icon-nav li {
+        display: none;
+    }
+
+    .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03{
+        position: relative;
+        padding-left: 1.25em;
+    }
+    .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03 {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 3rem;
+        height: 0.4rem;
+        background: white;
+    }
+    .sandwhich-menu-02 {
+        top: 1.5rem;
+    }
+    .sandwhich-menu-03 {
+        top: 3rem;
+    }
+
+}
+
+@media (max-width: 800px){
+    .suzies-story {
+        flex-direction: column;
+        height: 100%;
+    }
+    .suzies-story button{
+        margin: 1rem 12rem;
+    }
+
+    .suzies-story img{
+        width: 60%;
+        margin: 0 auto;
+        padding: 25px;
+    }
+
+    .suzies-story button{
+        margin: 20px 33%;
+        width: 30%;
+    }
+
+    .our-friends .our-friends-text{
+        margin-top: 0;
+    }
+    h2.our-friends-text {
+        padding-top: 30px;
+    }
+    .parrot-img{
+        display: none;
+    }
+    .our-friends ul li {
+        width: calc(50% - 20px);
+        padding: 25px;
+    }
+    .mid-banner{
+        height: 100%;
+    }
+    .mid-banner .ul-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mid-banner li {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .blog-posts .wrapper {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .blog-posts .first-row {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .zebra-image {
+        order: -1;
+    }
+
+    .blog-posts .second-row {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .text-box-one, 
+    .text-box-two {
+        background-color: white;
+    }
+
+    .blog-posts h3{
+        font-family: font.$funky-heading-text;
+    }
+
+    .blog-posts p{
+        color: black;
+    }
+
+    .blog-posts button{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 691px) {
+
+    .blog-posts .text-box-one, .text-box-two{
+        width:100%
+    }
+    
+    .zebra-image, .kitty-hi-5{
+        width: 100%;
+    }
+
+    .stay-updated{
+        height: 100%;
+    }
+
+    .stay-updated .wrapper {
+        flex-direction: column;
+    }
+
+    .bottom-nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .stay-updated-form {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #email-address {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .stay-updated button{
+        width: 85%;
+    }
+
+    .contact-us-bottom {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 417px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .sandwhich-menu-01, .sandwhich-menu-02, .sandwhich-menu-03 {
+        width: 2.5rem;
+    }
+
+    .suzies-story img {
+        width: 100%;
+        padding: 0;
+    }
+    .suzies-story .text-container {
+        margin-left: 0;
+    }
+    .suzies-story button {
+        margin: 20px 24%;
+        width: 50%;
+    }
+    .our-friends {
+        height: 425px;
+    }
+    .our-friends ul li {
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+    @media (max-width: 375px) {
+        header .wrapper {
+            width: 100%;
+        }
+        
+        .suzies-story h2{
+            font-size: 2.5rem;
+        }
+
+        .our-friends {
+            height: 350px;
+        }
+
+        .our-friends .our-friends-text {
+            font-size: 2rem;
+        }
+
+        .blog-posts h3 {
+            font-size: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+  

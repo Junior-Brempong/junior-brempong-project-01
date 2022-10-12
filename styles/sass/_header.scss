@@ -1,0 +1,56 @@
+header {
+    background-image: url(./animal-land-assets/image-1.jpg);
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 50px 100px 50px;
+}
+
+// Text nav starts
+
+header nav {
+    display: flex;
+}
+
+header .text-nav {
+    display: flex;
+}
+
+.text-nav li{
+    margin-right: 20px;
+}
+
+// text nav ends
+
+h1 {
+    font-size: 6.5rem;
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+}
+
+
+header .wrapper {
+    position: relative;
+}
+
+// Social media navigation starts
+
+header .icon-nav li {
+        margin: 15%;
+}
+
+.fa {
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.socials-nav-bar {
+    position: absolute;
+    right: 0;
+}
+
+// Social media navigation ends

@@ -1,0 +1,13 @@
+$funky-heading-text: 'Fredericka the Great', cursive;
+$heading-text-button: 'Cormorant Garamond', serif;
+$body-text: 'Roboto', sans-serif;
+
+
+h2, h3, a, button {
+    text-transform: uppercase;
+}
+
+.stay-updated-text, .contact-text{
+   text-transform: uppercase;
+   font-weight: 700;
+}

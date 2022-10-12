@@ -1,0 +1,24 @@
+.mid-banner {
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+    .ul-wrapper {
+        display: flex;
+        height: inherit;
+        align-items: center;
+    }
+
+.mid-banner .wrapper{
+    height: 100%;
+}
+
+.mid-banner li{
+        text-align: center;
+}
+
+    .mid-banner img {
+    display: inline-flex;
+    height: 20%;
+    width: 20%;
+}    

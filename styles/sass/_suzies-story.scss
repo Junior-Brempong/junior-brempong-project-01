@@ -1,0 +1,24 @@
+@use "typography" as fonts;
+
+.suzies-story {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    .img-container {
+        flex-basis: 100%;
+    }
+    h2 {
+        font-size: 2.8rem;
+    }
+    .text-container {
+        margin-left: 6%;
+    }
+    button {
+        background-color: white;
+        color: black;
+        font-family: fonts.$heading-text-button;
+        padding: 10px 20px;
+        margin-top: 20px;
+     }
+}
