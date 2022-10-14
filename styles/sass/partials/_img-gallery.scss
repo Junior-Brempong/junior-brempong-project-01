@@ -1,0 +1,19 @@
+@use "./variables";
+
+.img-gallery {
+    background-color: variables.$twilight-blue;
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        width: calc( (100% / 3) - 25px);
+        padding: 45px;
+        .image-01 {
+            margin-left: 15%;
+        }
+        .image-03 {
+            margin-left: -15%;
+        }
+    }
+}

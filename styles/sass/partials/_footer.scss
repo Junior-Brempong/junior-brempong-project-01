@@ -1,0 +1,10 @@
+@use "./variables";
+
+footer {
+    background-color: variables.$dandelion;
+    text-align: center;
+    height: 25px;
+    p {
+        margin: 0;
+    }
+}

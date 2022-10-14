@@ -1,0 +1,22 @@
+@use "./variables";
+
+.win-a-trip {
+    .wrapper {
+        display: flex;
+        width: 80%;
+        height: 550px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-container {
+        width: 25%;
+        img {
+            width: 100%;
+        }
+    }
+    .text-container {
+        width: 65%;
+        margin-left: 6%;
+    }
+}

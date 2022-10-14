@@ -15,6 +15,10 @@ html {
     background-color: variables.$ice-blue;
 }
 
+button {
+    text-transform: uppercase;
+}
+
 * {
     border: 1px solid pink;
 }
