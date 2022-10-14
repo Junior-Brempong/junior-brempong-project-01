@@ -1,0 +1,37 @@
+@use "./variables";
+
+    header {
+        background-image: url(../Boat-Ride-Adventures-final-assets/home-header.jpg);
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+        padding: 50px 50px 100px 50px;
+        position: relative;
+        .img-container {
+            position: absolute;
+            bottom: -24%;
+            right: 0;
+            width: 50%;
+        }
+    }
+
+    header .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+        margin: 0;
+        .h1-header {
+            margin-top: 50%;
+          }
+        
+    }
+
+    header ul {
+        display: flex;
+        a {
+            color: variables.$solid-white;
+            margin: 0 25px;
+        }
+    }
+

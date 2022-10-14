@@ -1,0 +1,20 @@
+@use "./variables";
+
+.wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+html {
+    background-color: variables.$ice-blue;
+}
+
+* {
+    border: 1px solid pink;
+}

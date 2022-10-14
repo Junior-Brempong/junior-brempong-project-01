@@ -1,0 +1,20 @@
+@use "./variables";
+
+.directory {
+    margin-top: 200px;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row-01 {
+        width: calc(100% / 2);
+        width: 40%;
+        margin: 25px;
+    }
+    .row-02 {
+        width: calc(100% /2);
+        width: 40%;
+        margin: 25px;
+    }
+}

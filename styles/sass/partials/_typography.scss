@@ -7,15 +7,22 @@ html {
   
   body {
     font-family: variables.$body-font;
-    font-size: 1rem;
+    font-size: variables.$base-font-size;
     color: black;
   }
   
-  h1, h2, h3, h4 {
+  h1 {
     font-family: variables.$heading-font;
     font-weight: normal;
     font-style: italic;
-    color: variables.$primary;
+    color: variables.$dandelion;
+  }
+  
+  h2, h3, h4 {
+    font-family: variables.$heading-font;
+    font-weight: normal;
+    font-style: italic;
+    color: variables.$twilight-blue;
     margin: 0;
   }
   
@@ -48,6 +55,14 @@ html {
   
   a {
     text-decoration: none;
+  }
+
+  button {
+    background-color: variables.$dandelion;
+    color: variables.$twilight-blue;
+    font-family: variables.$heading-font;
+    padding: 10px 20px;
+    margin-top: 20px;
   }
 
 

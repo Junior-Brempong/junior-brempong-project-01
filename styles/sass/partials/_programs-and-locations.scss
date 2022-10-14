@@ -1,0 +1,48 @@
+@use "./variables";
+
+h3 {
+    color: variables.$solid-white;
+}
+.programs-and-locations {
+    background-color: variables.$twilight-blue;
+    position: relative;
+    margin-top: 50px;
+    height: 700px;
+    .first-row {
+        display: flex;
+        justify-content: right;
+    }
+    .second-row {
+        display: flex;
+    }
+}
+
+.programs-and-locations .our-programs-text-box, .new-locations-text-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 40%;
+}
+
+.new-locations-text-box {
+    order: -1;
+    justify-content: right;
+}
+
+.programs-and-locations {
+    .our-programs-text-box {
+        margin-top: 5%;
+    }
+    .left-image {
+        position: absolute;
+        left: 6%;
+        top: -10%;
+        width: 40%;
+    }
+    .right-image {
+        position: absolute;
+        right: 6%;
+        bottom: -10%;
+        width: 40%;
+    }
+}

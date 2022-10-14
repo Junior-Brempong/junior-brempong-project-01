@@ -237,11 +237,18 @@ body {
   color: black;
 }
 
-h1, h2, h3, h4 {
+h1 {
   font-family: "IM Fell English", serif;
   font-weight: normal;
   font-style: italic;
-  color: #084b6d;
+  color: #FDD908;
+}
+
+h2, h3, h4 {
+  font-family: "IM Fell English", serif;
+  font-weight: normal;
+  font-style: italic;
+  color: #0D457F;
   margin: 0;
 }
 
@@ -272,4 +279,157 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+button {
+  background-color: #FDD908;
+  color: #0D457F;
+  font-family: "IM Fell English", serif;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  background-color: #EAFEFC;
+}
+
+* {
+  border: 1px solid pink;
+}
+
+header {
+  background-image: url(../Boat-Ride-Adventures-final-assets/home-header.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 50px 100px 50px;
+  position: relative;
+}
+header .img-container {
+  position: absolute;
+  bottom: -24%;
+  right: 0;
+  width: 50%;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin: 0;
+}
+header .wrapper .h1-header {
+  margin-top: 50%;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header ul a {
+  color: white;
+  margin: 0 25px;
+}
+
+.directory {
+  margin-top: 200px;
+}
+.directory ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.directory .row-01 {
+  width: 50%;
+  width: 40%;
+  margin: 25px;
+}
+.directory .row-02 {
+  width: 50%;
+  width: 40%;
+  margin: 25px;
+}
+
+h3 {
+  color: white;
+}
+
+.programs-and-locations {
+  background-color: #0D457F;
+  position: relative;
+  margin-top: 50px;
+  height: 700px;
+}
+.programs-and-locations .first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+.programs-and-locations .second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.programs-and-locations .our-programs-text-box, .new-locations-text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 40%;
+}
+
+.new-locations-text-box {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.programs-and-locations .our-programs-text-box {
+  margin-top: 5%;
+}
+.programs-and-locations .left-image {
+  position: absolute;
+  left: 6%;
+  top: -10%;
+  width: 40%;
+}
+.programs-and-locations .right-image {
+  position: absolute;
+  right: 6%;
+  bottom: -10%;
+  width: 40%;
 }
