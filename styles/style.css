@@ -450,6 +450,11 @@ h3 {
   text-align: center;
 }
 
+.full-bleed-img .img-container {
+  width: 100%;
+  height: 400px;
+}
+
 .win-a-trip .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
