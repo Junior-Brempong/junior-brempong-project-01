@@ -1,0 +1,7 @@
+@use './variables';
+
+@media (max-width: 1850px) {
+    header .img-container{
+        right: 10%;
+    }
+}

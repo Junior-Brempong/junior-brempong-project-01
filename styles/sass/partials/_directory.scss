@@ -33,6 +33,40 @@
         position: absolute;
         left: -30px;
         top: 5px;
+        // background-color: variables.$dandelion;
+        // background-size: cover; --> CAN I ADD A BACKGROUND COLOR/BORDER RADIUS TO THESE PSEUDO ELEMENTS?
     }
-    
+    .text-box-02::before {
+        content: url('../Boat-Ride-Adventures-final-assets/users-line-solid.svg');
+        width: 25px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        left: -30px;
+        top: 5px;
+        // background-color: variables.$dandelion;
+        // background-size: cover;
+    }
+    .text-box-03::before {
+        content: url('../Boat-Ride-Adventures-final-assets/file-solid.svg');
+        width: 25px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        left: -30px;
+        top: 5px;
+        // background-color: variables.$dandelion;
+        // background-size: cover;
+    }
+    .text-box-04::before {
+        content: url('../Boat-Ride-Adventures-final-assets/phone-flip-solid.svg');
+        width: 25px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        left: -30px;
+        top: 5px;
+        // background-color: variables.$dandelion;
+        // background-size: cover;
+    }
 }

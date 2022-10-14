@@ -328,9 +328,9 @@ header h1 {
 }
 header .img-container {
   position: absolute;
-  bottom: -24%;
-  right: 0;
-  width: 50%;
+  bottom: -20%;
+  right: 17%;
+  width: 34%;
 }
 
 header .wrapper {
@@ -343,12 +343,10 @@ header .wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
-  margin: 0;
-  margin-left: 5%;
+  width: 100%;
 }
 header .wrapper .h1-header {
-  margin-top: 40%;
+  margin-top: 25%;
   width: 65%;
 }
 
@@ -392,6 +390,33 @@ header ul a {
 
 .directory .text-box-01::before {
   content: url("../Boat-Ride-Adventures-final-assets/location-dot-solid.svg");
+  width: 25px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: -30px;
+  top: 5px;
+}
+.directory .text-box-02::before {
+  content: url("../Boat-Ride-Adventures-final-assets/users-line-solid.svg");
+  width: 25px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: -30px;
+  top: 5px;
+}
+.directory .text-box-03::before {
+  content: url("../Boat-Ride-Adventures-final-assets/file-solid.svg");
+  width: 25px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: -30px;
+  top: 5px;
+}
+.directory .text-box-04::before {
+  content: url("../Boat-Ride-Adventures-final-assets/phone-flip-solid.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
@@ -444,24 +469,34 @@ h3 {
           justify-content: right;
 }
 
+.programs-and-locations img {
+  width: 100%;
+}
 .programs-and-locations .our-programs-text-box {
   margin-top: 5%;
 }
+.programs-and-locations .second-row {
+  margin-top: 50px;
+}
 .programs-and-locations .left-image {
   position: absolute;
-  left: 0;
-  top: -15%;
-  width: 40%;
+  left: 16.5%;
+  top: -10%;
+  width: 28%;
+  -webkit-box-shadow: 20px 20px 0px #FDD908;
+          box-shadow: 20px 20px 0px #FDD908;
 }
 .programs-and-locations .right-image {
   position: absolute;
-  right: 0;
-  bottom: -15%;
-  width: 40%;
+  right: 16.5%;
+  bottom: -7%;
+  width: 28%;
+  -webkit-box-shadow: -20px 20px 0px #FDD908;
+          box-shadow: -20px 20px 0px #FDD908;
 }
 
 .extra-vacation-banner {
-  height: 500px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -494,6 +529,8 @@ h3 {
 }
 .win-a-trip .img-container {
   width: 25%;
+  -webkit-box-shadow: -20px 20px 0px #FDD908;
+          box-shadow: -20px 20px 0px #FDD908;
 }
 .win-a-trip .img-container img {
   width: 100%;
@@ -532,4 +569,10 @@ footer {
 }
 footer p {
   margin: 0;
+}
+
+@media (max-width: 1850px) {
+  header .img-container {
+    right: 10%;
+  }
 }

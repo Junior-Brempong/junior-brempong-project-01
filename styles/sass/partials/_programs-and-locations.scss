@@ -30,19 +30,28 @@ h3 {
 }
 
 .programs-and-locations {
+    img {
+        width: 100%;
+    }
     .our-programs-text-box {
         margin-top: 5%;
     }
+    .second-row {
+        margin-top: 50px;
+    }
     .left-image {
         position: absolute;
-        left: 0;
-        top: -15%;
-        width: 40%;
+        left: 16.5%;
+        top: -10%;
+        width: 28%;
+        box-shadow:  20px 20px 0px variables.$dandelion;
+
     }
     .right-image {
         position: absolute;
-        right: 0;
-        bottom: -15%;
-        width: 40%;
+        right: 16.5%;
+        bottom: -7%;
+        width: 28%;
+        box-shadow:  -20px 20px 0px variables.$dandelion;
     }
 }
