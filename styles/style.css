@@ -225,3 +225,51 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  /* if we set our root element font-size to 125%, then 1 rem = 20px */
+  font-size: 125%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+h1, h2, h3, h4 {
+  font-family: "IM Fell English", serif;
+  font-weight: normal;
+  font-style: italic;
+  color: #084b6d;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.95rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+ul, li, a, input {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
