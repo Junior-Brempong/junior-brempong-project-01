@@ -14,8 +14,12 @@
 
     <!-- Google Fonts Go here -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&family=Roboto:wght@400;700&display=swap" rel="stylesheet"
+
 </head>
-<body>
+<body class="contact-page">
 
     <header class="header" class="contact-header">
         <!-- Wrapper Begins -->
@@ -26,7 +30,7 @@
                     <li><a href="#index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#blog.html">Blog</a></li>
-                    <li><a href="#contact.html">Contact</a></li>
+                    <li><a class="contact-border" href="#contact.html">Contact</a></li>
                 </ul>
             </nav>
             <!-- Nav Ends -->
@@ -45,63 +49,70 @@
                     <!-- Nav -->
                     <nav class="socials-nav-bar">
                         <ul class="icon-nav">
-                            <li><a href="#" class="fa fa-instagram"></a></li>
                             <li><a href="#" class="fa fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-snapchat"></a></li>
+                            <li><a href="#" class="fa fa-instagram"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-snapchat"></a></li>
                         </ul>
                         <p>info@email.com</p>
                     </nav>
                     <!-- Nav Ends -->
-                    <p>123-456-7890</p>
-                    <p>123 Queen Street West, Unit 10</p>
-                    <p>Toronto, Ontario</p>
-                    <p>M5V2D5</p>
+                    <!-- Contact info text starts -->
+                    <div class="contact-info">
+                        <p>123-456-7890</p>
+                        <p>123 Queen Street West, Unit 10</p>
+                        <p>Toronto, Ontario</p>
+                        <p>M5V2D5</p>
+                    </div>
+                    <!-- Contact info text ends -->
                 </div>
                 <!-- Text container ends -->
 
-                <!-- Wrapper for name and email forms start -->
-                <div class="contact-name-and-email-wrapper">
-                    <!-- Name text form starts -->
-                    <form action="#" method="#" class="users-name" name="users-name">
+                <!-- Wrapper for all form starts -->
+                <div class="form-wrapper">
+                    <!-- Wrapper for name & email row starts -->
+                    <div class="name-email-row">
+
+                        <!-- Name text form starts -->
+                        <form action="#" method="#" class="users-name" name="users-name">
+                            
+                            <label for="users-name">Name</label>
+                            <input type="text" id="users-name" name="users-name">
+                            
+                        </form>
+                        <!-- Name text form ends -->
                         
-                        <label for="users-name">Name:</label>
-                        <input type="text" id="users-name" name="users-name">
-                        
-                    </form>
-                    <!-- Name text form ends -->
+                        <!-- Email form starts -->
+                        <form action="#" method="#" class="users-email" name="users-email">
+                            
+                            <label for="users-email">Email Address</label>
+                            <input type="text" id="users-email" name="users-email">                           
+                        </form>
+                        <!-- Email form ends -->
+                    </div>
+                    <!-- Wrapper for name and email row end -->
                     
-                    <!-- Email form starts -->
-                    <form action="#" method="#" class="users-email" name="users-email">
+                    <!-- Comment section form starts -->
+                    <form action="#" method="#" class="myForm" name="myForm">
                         
-                        <label for="users-email">Email Address:</label>
-                        <input type="text" id="users-email" name="users-email">                           
-                    </form>
-                    <!-- Email form ends -->
+                        <label for="comment-box"></label>
+                        <textarea name="user-comment" id="comment" cols="30" rows="10" minlength="5" maxlength="200">
+                            Message</textarea>  
+                            
+                            <button type="submit">submit</button>
+                        </form>
+                        <!-- Comment Section form ends -->
+                        
                 </div>
-                <!-- Wrapper for name and email forms ends -->
-
-                <!-- Comment section form starts -->
-                <form action="#" method="#" class="myForm" name="myForm">
-
-                    <label for="comment-box"></label>
-                    <textarea name="user-comment" id="comment" cols="30" rows="10" minlength="5" maxlength="200">
-                    Message</textarea>  
-
-                    <button type="submit">submit</button>
-                </form>
-                <!-- Comment Section form ends -->
-
+                <!-- wrapper for all form ends -->
             </div>
             <!-- Wrapper Ends -->
         </section>
         <!-- Section Ends -->
 
         <!-- Footer starts -->
-        <footer>
-            <div class="wrapper">
+        <footer>      
                 <p>Copyright @ 2019 HackerYou</p>
-            </div>
         </footer>
         <!-- Footer Ends -->
     

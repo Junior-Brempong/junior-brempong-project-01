@@ -308,10 +308,6 @@ button {
   text-transform: uppercase;
 }
 
-* {
-  border: 1px solid pink;
-}
-
 header {
   background-image: url(../Boat-Ride-Adventures-final-assets/home-header.jpg);
   height: 70vh;
@@ -569,6 +565,118 @@ footer {
 }
 footer p {
   margin: 0;
+}
+
+.contact-page {
+  display: block;
+}
+.contact-page header {
+  background-image: url(../Boat-Ride-Adventures-final-assets/contact-header.jpg);
+}
+.contact-page header h1 {
+  font-family: "IM Fell English", serif;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+  margin-top: 10%;
+}
+.contact-page header .contact-nav-bar a {
+  color: white;
+  font-weight: bold;
+}
+.contact-page header .contact-border {
+  border-bottom: 2px solid #FDD908;
+}
+.contact-page main {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-page .form-wrapper {
+  background-color: #0D457F;
+  position: absolute;
+  right: 16%;
+  width: 750px;
+  height: 485px;
+  bottom: 58%;
+  -webkit-box-shadow: 20px 20px 0px #FDD908;
+          box-shadow: 20px 20px 0px #FDD908;
+  padding: 50px;
+}
+.contact-page .name-email-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact-page .name-email-row .users-name, .contact-page .name-email-row .users-email {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact-page .name-email-row #users-name, .contact-page .name-email-row #users-email {
+  background-color: #0D457F;
+  border-bottom: 1px solid #FDD908;
+  width: 125%;
+}
+
+.contact-page .users-email {
+  margin-right: 55px;
+}
+.contact-page .myForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact-page .myForm #comment {
+  background-color: #0D457F;
+  color: white;
+  margin-top: 25px;
+  border: 1px solid #FDD908;
+}
+
+.contact-page .contact-text-container {
+  text-align: left;
+}
+.contact-page a {
+  color: #0D457F;
+}
+.contact-page .socials-nav-bar {
+  margin-bottom: 50px;
+}
+.contact-page .contact-page-section {
+  margin-top: 26%;
+  height: 410px;
+  position: relative;
+}
+.contact-page .contact-page-section .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.contact-page .contact-page-section p {
+  line-height: 0.2rem;
+  margin-left: 1rem;
 }
 
 @media (max-width: 1850px) {

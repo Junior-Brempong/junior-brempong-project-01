@@ -1,0 +1,122 @@
+@use './variables';
+
+
+// Header styles Starts
+
+.contact-page {
+    display: block;
+    header {
+        background-image: url(../Boat-Ride-Adventures-final-assets/contact-header.jpg);
+        h1 {
+                font-family: variables.$heading-font;
+                font-weight: normal;
+                font-style: italic;
+                color: variables.$solid-white;
+                margin-top: 10%;
+        }
+        .contact-nav-bar a{
+            color: variables.$solid-white;
+            font-weight: bold;
+        }
+        .contact-border{
+            border-bottom: 2px solid variables.$dandelion;
+        }
+    }
+    main {
+        font-family: variables.$body-font;
+    }
+}
+
+// Header styles end
+
+
+
+// Form Styles Start
+
+.contact-page {
+    .form-wrapper {
+        background-color: variables.$twilight-blue;
+        position: absolute;
+        right: 16%;
+        width: 750px;
+        height: 485px;
+        bottom: 58%;
+        box-shadow: 20px 20px 0px variables.$dandelion;
+        padding:50px
+    }
+        .name-email-row {
+            display: flex;
+            justify-content: space-between;
+            .users-name, .users-email {
+                color: variables.$solid-white;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            #users-name, #users-email {
+                background-color: variables.$twilight-blue;
+                border-bottom: 1px solid variables.$dandelion;
+                width: 125%;
+            }
+        }
+}
+
+.contact-page {
+    .users-email {
+        margin-right: 55px;
+    }
+    .myForm {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        #comment {
+            background-color: variables.$twilight-blue;
+            color: variables.$solid-white;
+            margin-top: 25px;
+            border: 1px solid variables.$dandelion;
+        }
+    }
+}
+
+// Form Styles Ends
+
+
+// Social Media Nav Bar & Contact Info Styling Starts
+
+
+.contact-page {
+    .contact-text-container{
+        text-align: left;
+    }
+    a {
+        color: variables.$twilight-blue;
+    }
+    .socials-nav-bar {
+        margin-bottom: 50px;
+
+    }
+    .contact-page-section {
+        margin-top: 26%;
+        height: 410px;
+        position: relative;
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        p {
+            line-height: .2rem;
+            margin-left: 1rem;
+        }
+    }
+}
+
+
+// Social Media Nav Bar & Contact Info Styling Ends
+
+
+// .contact-page {
+//     * {
+//     border: 1px solid pink;
+// }
+// }

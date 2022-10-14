@@ -2,6 +2,8 @@
 @use "./partials/variables";
 @use "./partials/typography";
 @use "./partials/global";
+
+// Home Page Partials
 @use "./partials/header";
 @use "./partials/directory";
 @use "./partials/programs-and-locations";
@@ -10,6 +12,16 @@
 @use "./partials/win-a-trip";
 @use "./partials/img-gallery";
 @use "./partials/footer";
+
+// Contact Page Partials
+
+@use "./partials/contact-page-styles";
+
+
+
+
+// Media Queries
+
 @use "./partials/media-queiries"
 
 
