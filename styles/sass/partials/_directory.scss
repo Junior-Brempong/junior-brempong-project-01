@@ -18,3 +18,21 @@
         margin: 25px;
     }
 }
+
+.directory .text-box-01, .text-box-02, .text-box-03, .text-box-04 {
+    position: relative;
+}
+
+
+.directory {
+    .text-box-01::before {
+        content: url('../Boat-Ride-Adventures-final-assets/location-dot-solid.svg');
+        width: 25px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        left: -30px;
+        top: 5px;
+    }
+    
+}
