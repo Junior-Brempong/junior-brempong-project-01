@@ -1,0 +1,36 @@
+@use "./variables";
+
+
+.blog-page {
+    position: relative;
+    main {
+        margin-top: 10%;
+        position: absolute;
+        right: 0;
+        width: 60%;
+        .next-destination {
+            border: 5px solid variables.$dandelion;
+        }
+        .blog-img-container{
+            width: 100%;
+            height: 700px;
+            padding-left: 1.5%;
+            
+            img {
+                width: 100%;
+                height: 100%;
+                box-shadow: -20px 20px 0px #FDD908;
+            }
+        }
+        .blog-text-container {
+            margin: 0 auto;
+            margin-top: 75px;
+            margin-bottom: 75px;
+            width: 70%;
+            h3 {
+                color: variables.$twilight-blue;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

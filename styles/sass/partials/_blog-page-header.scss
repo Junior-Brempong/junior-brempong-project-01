@@ -1,0 +1,41 @@
+@use "./variables";
+
+.blog-page {
+    header {
+        background-image: url(../Boat-Ride-Adventures-final-assets/blog-header.jpg);
+        .blog-underline {
+            border-bottom: 1px solid variables.$dandelion;
+        }
+        h1 {
+            color: variables.$solid-white;
+            margin-top: 120px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-page {
+    * {
+    border: 1px solid pink;
+}
+}

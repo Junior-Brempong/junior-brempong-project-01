@@ -679,6 +679,55 @@ footer p {
   margin-left: 1rem;
 }
 
+.blog-page header {
+  background-image: url(../Boat-Ride-Adventures-final-assets/blog-header.jpg);
+}
+.blog-page header .blog-underline {
+  border-bottom: 1px solid #FDD908;
+}
+.blog-page header h1 {
+  color: white;
+  margin-top: 120px;
+}
+
+.blog-page * {
+  border: 1px solid pink;
+}
+
+.blog-page {
+  position: relative;
+}
+.blog-page main {
+  margin-top: 10%;
+  position: absolute;
+  right: 0;
+  width: 60%;
+}
+.blog-page main .next-destination {
+  border: 5px solid #FDD908;
+}
+.blog-page main .blog-img-container {
+  width: 100%;
+  height: 700px;
+  padding-left: 1.5%;
+}
+.blog-page main .blog-img-container img {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: -20px 20px 0px #FDD908;
+          box-shadow: -20px 20px 0px #FDD908;
+}
+.blog-page main .blog-text-container {
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 70%;
+}
+.blog-page main .blog-text-container h3 {
+  color: #0D457F;
+  text-transform: uppercase;
+}
+
 @media (max-width: 1850px) {
   header .img-container {
     right: 10%;
