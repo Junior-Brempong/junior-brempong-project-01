@@ -4,7 +4,7 @@
     header {
         background-image: url(../Boat-Ride-Adventures-final-assets/blog-header.jpg);
         .blog-underline {
-            border-bottom: 1px solid variables.$dandelion;
+            border-bottom: 2px solid variables.$dandelion;
         }
         h1 {
             color: variables.$solid-white;
@@ -14,28 +14,3 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.blog-page {
-    * {
-    border: 1px solid pink;
-}
-}

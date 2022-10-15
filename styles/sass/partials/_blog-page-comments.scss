@@ -22,29 +22,31 @@
         margin-top: 25px;
         display: flex;
         .comment-01-img-container {
-            width: 45%;
+            width: 30%;
             img {
                 width: 100%;
             }
         }
         .comment-01-text {
             margin-left: 7%;
+            margin-top: -25px;
         }
     }
 }
 
 .blog-page {
     .comment-02 {
-        margin-top: 25px;
+        margin-top: 9%;
         display: flex;
         .comment-02-img-container {
-            width: 45%;
+            width: 30%;
             img {
                 width: 100%;
             }
         }
         .comment-02-text {
         margin-left: 7%;
+        margin-top: -25px;
         }
     }
 }

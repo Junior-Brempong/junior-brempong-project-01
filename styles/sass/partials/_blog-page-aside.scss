@@ -1,18 +1,46 @@
 @use "./variables";
 
-.blog-page{
-    footer {
-        display: none;
-    }
-}
-
+// Aside box styles
 
 .blog-page {
     aside {
         position: absolute;
         top: 150%;
+        background-color: variables.$twilight-blue;
+        h4 {
+            color: variables.$dandelion;
+            text-transform: uppercase;
+        }
+        p {
+            color: variables.$solid-white;
+        }
     }
     .our-mission {
         width: 20%;
     }
+    .aside-text-container {
+        padding: 25px;
+        padding-top: 0;
+        .recent-posts {
+            margin-top: 12%;
+        }
+        ul {
+            flex-wrap: wrap;
+            flex-direction: column;
+            line-height: 0rem;
+            list-style: circle;
+            li{
+                margin-left: 10%;
+                color: variables.$solid-white;
+            }
+        }
+    }
+}
+
+// Aside Img Styles
+
+.blog-page aside img {
+    position: relative;
+    right: 7%;
+    top: -45px;
 }
