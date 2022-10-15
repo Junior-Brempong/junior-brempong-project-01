@@ -1,0 +1,50 @@
+@use "./variables";
+
+.blog-page {
+    .comments {
+        margin-top: 50px;
+        h3 {
+            color: variables.$twilight-blue;
+            text-transform: uppercase;
+        }
+        .comment-dates {
+            color: variables.$twilight-blue;
+            font-weight: bold;
+        }
+        .wrapper {
+            width: 80%;
+        }
+    }
+}
+
+.blog-page {
+    .comment-01 {
+        margin-top: 25px;
+        display: flex;
+        .comment-01-img-container {
+            width: 45%;
+            img {
+                width: 100%;
+            }
+        }
+        .comment-01-text {
+            margin-left: 7%;
+        }
+    }
+}
+
+.blog-page {
+    .comment-02 {
+        margin-top: 25px;
+        display: flex;
+        .comment-02-img-container {
+            width: 45%;
+            img {
+                width: 100%;
+            }
+        }
+        .comment-02-text {
+        margin-left: 7%;
+        }
+    }
+}

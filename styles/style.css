@@ -703,8 +703,9 @@ footer p {
   right: 0;
   width: 60%;
 }
-.blog-page main .next-destination {
-  border: 5px solid #FDD908;
+.blog-page main .next-destination-border {
+  border-left: 5px solid #FDD908;
+  border-bottom: 5px solid #FDD908;
 }
 .blog-page main .blog-img-container {
   width: 100%;
@@ -726,6 +727,53 @@ footer p {
 .blog-page main .blog-text-container h3 {
   color: #0D457F;
   text-transform: uppercase;
+}
+
+.blog-page .comments {
+  margin-top: 50px;
+}
+.blog-page .comments h3 {
+  color: #0D457F;
+  text-transform: uppercase;
+}
+.blog-page .comments .comment-dates {
+  color: #0D457F;
+  font-weight: bold;
+}
+.blog-page .comments .wrapper {
+  width: 80%;
+}
+
+.blog-page .comment-01 {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog-page .comment-01 .comment-01-img-container {
+  width: 45%;
+}
+.blog-page .comment-01 .comment-01-img-container img {
+  width: 100%;
+}
+.blog-page .comment-01 .comment-01-text {
+  margin-left: 7%;
+}
+
+.blog-page .comment-02 {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog-page .comment-02 .comment-02-img-container {
+  width: 45%;
+}
+.blog-page .comment-02 .comment-02-img-container img {
+  width: 100%;
+}
+.blog-page .comment-02 .comment-02-text {
+  margin-left: 7%;
 }
 
 @media (max-width: 1850px) {

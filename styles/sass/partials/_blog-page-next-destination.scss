@@ -8,8 +8,9 @@
         position: absolute;
         right: 0;
         width: 60%;
-        .next-destination {
-            border: 5px solid variables.$dandelion;
+        .next-destination-border {
+            border-left: 5px solid variables.$dandelion;
+            border-bottom: 5px solid variables.$dandelion; ;
         }
         .blog-img-container{
             width: 100%;
