@@ -1,0 +1,18 @@
+@use "./variables";
+
+.blog-page{
+    footer {
+        display: none;
+    }
+}
+
+
+.blog-page {
+    aside {
+        position: absolute;
+        top: 150%;
+    }
+    .our-mission {
+        width: 20%;
+    }
+}

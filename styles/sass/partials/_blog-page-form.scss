@@ -1,0 +1,59 @@
+@use "./variables";
+
+
+// General Form Styles
+
+.blog-page {
+    .form-wrapper {
+        width:80%;
+        height: 500px;
+        padding:50px;
+        margin: 0 auto;
+        margin-top: 50px;
+        .name-and-email-wrapper {
+            display: flex;
+            justify-content: space-between;
+        .users-name, .users-email {
+                display: flex;
+                font-weight:lighter;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+        #users-name, #users-email {
+                background-color: variables.$ice-blue;
+                width: 125%;
+                border-bottom: 1px solid variables.$dandelion;
+            }
+        }
+    }
+}
+
+// Comment and Button styling
+
+
+.blog-page {
+    .users-email {
+        margin-right: 55px;
+    }
+    .myForm {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        #comment {
+            background-color: variables.$ice-blue;
+            margin-top: 25px;
+            border: 1px solid variables.$dandelion;
+        }
+    }
+    button {
+        background-color: variables.$twilight-blue;
+        color: variables.$dandelion;
+    }
+}
+
+.blog-page {
+    .name-text, .email-text {
+        margin-left: 20px;
+    }
+    
+}
