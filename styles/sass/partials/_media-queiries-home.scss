@@ -5,3 +5,179 @@
         right: 10%;
     }
 }
+
+@media (max-width: 1465px) {
+    header .img-container {
+        right: 0;
+        width: 40%;
+    }
+    .programs-and-locations {
+        .right-image {
+            right: 0;
+            width: 40%;
+        }
+        .left-image {
+            left: 0;
+            width: 40%;
+        }
+    }
+}
+
+@media (max-width: 1105px) {
+    header .img-container {
+        bottom: -10%;
+    }
+    .programs-and-locations {
+        height: 100%;
+        .right-image {
+            right: 0;
+            width: 50%;
+        }
+        .left-image {
+            left: 0;
+            width: 50%;
+            top: -3%;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    header .img-container {
+        display: none;
+    }
+    header .wrapper {
+        text-align: center;
+        align-content: center;
+    }
+    header ul {
+        justify-content: center;
+    }
+
+    .img-gallery ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;      
+    }
+    .img-gallery li {
+            width: 60%
+    }
+
+    .img-gallery li .image-01 {
+            margin-left: 0;
+    }
+    .img-gallery li .image-03 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 905px) {
+    header .wrapper .h1-header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .directory {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 861px) {
+    .programs-and-locations .right-image {
+        bottom: 0;
+    }
+    .programs-and-locations .left-image {
+        top: 0;
+    }
+
+    .win-a-trip .wrapper {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        .img-container {
+            width: 45%;
+            margin-top: 10%;
+        }
+        .text-container {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 745px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    header .wrapper .h1-header {
+        margin-top: 33%;
+    }
+    .programs-and-locations {
+        .first-row {
+            flex-direction: column;
+            align-items: center;
+            padding-top: 12%;
+        }
+        .our-programs-text-box {
+            justify-content: center;
+            margin-top: 10%;
+            width: 55%;
+        }
+        .left-image {
+            position: relative;
+            width: 60%;
+        }
+    }
+    .programs-and-locations {
+        .second-row {
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 12%;
+        }
+        .new-locations-text-box {
+            justify-content: center;
+            order: 0;
+            margin-top: 10%;
+            width: 55%;
+        }
+        .right-image {
+            position: relative;
+            width: 60%;
+        }
+    }
+    .img-gallery li {
+        width: 85%;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+    header .wrapper .h1-header {
+        margin-top: 45%;
+    }
+    .directory .row-01 {
+        width: 50%;
+    }
+    .directory .row-02 {
+        width: 50%;
+    }
+    .extra-vacation-banner .wrapper {
+        width: 70%;
+    }
+}
+
+@media (max-width: 469px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    header .wrapper {
+        align-items: center;
+    }
+    header .wrapper .h1-header {
+        margin-top: 55%;
+    }
+}
+
+// NEED TO DO'S: FIX HEADER H1 & ADD SANDWHICH MENU (LOOK AT PREVIOUS ASSIGNMENT)
