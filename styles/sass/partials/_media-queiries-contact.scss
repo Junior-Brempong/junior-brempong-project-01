@@ -1,5 +1,147 @@
 @use "./variables";
 
 @media (max-width: 1404px) {
-    
+    .contact-page {
+        .form-wrapper {
+            right: 0;
+        }
+    }
+}
+
+@media (max-width: 1337px) {
+    .contact-page {
+        .form-wrapper {
+            bottom: 35%;
+        }
+        .contact-text-container {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    }
+}
+
+@media (max-width: 1175px) {
+    .contact-page {
+        .form-wrapper {
+            width: 650px;
+        }
+    }
+}
+
+
+@media (max-width: 1075px) {
+    .contact-page {
+        .contact-page-section {
+            margin-top: 0;
+            height: 100%;
+        }
+        .form-wrapper {
+            position: relative;
+            order: -1;
+            margin-top: 15%;
+        }
+        .contact-page-section .wrapper {
+            flex-direction: column;
+            align-content: center;
+        }
+        .contact-text-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+        }
+        .contact-info {
+            margin-top: -25px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .contact-page {
+        li {
+            font-size: 1.5rem;
+        }
+    .contact-nav-bar {
+        margin-bottom: 18%;
+        }
+    }
+}
+
+@media (max-width: 765px) {
+    .contact-nav-bar {
+        margin-bottom: 28%;
+        }
+    .contact-page .name-email-row {
+        flex-direction: column;
+    }
+    .contact-page .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 800px;
+        width: 100%;
+        }
+    .contact-page .name-email-row #users-name, .contact-page .name-email-row #users-email {
+        width: 100%;
+    }
+    .contact-page .users-email {
+        margin-right: 0;
+        margin-top: 20%;
+}
+}
+
+@media (max-width: 678px) {
+    .contact-page {
+        li {
+            font-size: 1.25rem;
+        }
+    .contact-nav-bar {
+        margin-bottom: 28%;
+        }
+    }
+}
+
+@media (max-width: 573px) {
+    .contact-page {
+        li {
+            display: none;
+        }
+        header h1 {
+            padding-top: 20%;
+        }        
+    }
+    .contact-page .sandwhich-menu {
+        content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+        position: absolute;
+        right: 10%;
+        width: 5rem;
+        height: 3rem;
+    }
+    .sandwhich-menu:active {
+        content: '';
+        background-color: variables.$twilight-blue;
+        height: 85%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 506px) {
+    .contact-page #comment {
+        width: 100%;
+    }
+}
+
+@media (max-width: 367px) {
+    .contact-page {
+        header h1 {
+            padding-top: 30%;
+        } 
+        .sandwhich-menu {
+            height: 2.5rem;
+        }
+        .users-email {
+            margin-top: 35%;
+        }       
+    }
 }

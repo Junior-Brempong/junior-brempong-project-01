@@ -308,6 +308,10 @@ button {
   text-transform: uppercase;
 }
 
+* {
+  border: 1px solid pink;
+}
+
 header {
   background-image: url(../Boat-Ride-Adventures-final-assets/home-header.jpg);
   height: 70vh;
@@ -594,10 +598,10 @@ footer p {
 .contact-page .form-wrapper {
   background-color: #0D457F;
   position: absolute;
-  right: 16%;
+  right: 20%;
   width: 750px;
-  height: 485px;
-  bottom: 58%;
+  height: 500px;
+  bottom: 65%;
   -webkit-box-shadow: 20px 20px 0px #FDD908;
           box-shadow: 20px 20px 0px #FDD908;
   padding: 50px;
@@ -655,11 +659,19 @@ footer p {
 .contact-page a {
   color: #0D457F;
 }
+.contact-page .icon-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
 .contact-page .socials-nav-bar {
   margin-bottom: 50px;
 }
 .contact-page .contact-page-section {
-  margin-top: 26%;
+  margin-top: 12%;
   height: 410px;
   position: relative;
 }
@@ -1163,5 +1175,146 @@ footer p {
 @media (max-width: 345px) {
   header h1 {
     font-size: 1.65rem;
+  }
+}
+@media (max-width: 1404px) {
+  .contact-page .form-wrapper {
+    right: 0;
+  }
+}
+@media (max-width: 1337px) {
+  .contact-page .form-wrapper {
+    bottom: 35%;
+  }
+  .contact-page .contact-text-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 1175px) {
+  .contact-page .form-wrapper {
+    width: 650px;
+  }
+}
+@media (max-width: 1075px) {
+  .contact-page .contact-page-section {
+    margin-top: 0;
+    height: 100%;
+  }
+  .contact-page .form-wrapper {
+    position: relative;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-top: 15%;
+  }
+  .contact-page .contact-page-section .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .contact-page .contact-text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    text-align: center;
+  }
+  .contact-page .contact-info {
+    margin-top: -25px;
+  }
+}
+@media (max-width: 950px) {
+  .contact-page li {
+    font-size: 1.5rem;
+  }
+  .contact-page .contact-nav-bar {
+    margin-bottom: 18%;
+  }
+}
+@media (max-width: 765px) {
+  .contact-nav-bar {
+    margin-bottom: 28%;
+  }
+  .contact-page .name-email-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page .form-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 800px;
+    width: 100%;
+  }
+  .contact-page .name-email-row #users-name, .contact-page .name-email-row #users-email {
+    width: 100%;
+  }
+  .contact-page .users-email {
+    margin-right: 0;
+    margin-top: 20%;
+  }
+}
+@media (max-width: 678px) {
+  .contact-page li {
+    font-size: 1.25rem;
+  }
+  .contact-page .contact-nav-bar {
+    margin-bottom: 28%;
+  }
+}
+@media (max-width: 573px) {
+  .contact-page li {
+    display: none;
+  }
+  .contact-page header h1 {
+    padding-top: 20%;
+  }
+  .contact-page .sandwhich-menu {
+    content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+    position: absolute;
+    right: 10%;
+    width: 5rem;
+    height: 3rem;
+  }
+  .sandwhich-menu:active {
+    content: "";
+    background-color: #0D457F;
+    height: 85%;
+    width: 100%;
+  }
+}
+@media (max-width: 506px) {
+  .contact-page #comment {
+    width: 100%;
+  }
+}
+@media (max-width: 367px) {
+  .contact-page header h1 {
+    padding-top: 30%;
+  }
+  .contact-page .sandwhich-menu {
+    height: 2.5rem;
+  }
+  .contact-page .users-email {
+    margin-top: 35%;
   }
 }

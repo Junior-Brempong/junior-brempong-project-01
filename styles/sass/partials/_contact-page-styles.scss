@@ -37,10 +37,10 @@
     .form-wrapper {
         background-color: variables.$twilight-blue;
         position: absolute;
-        right: 16%;
+        right: 20%;
         width: 750px;
-        height: 485px;
-        bottom: 58%;
+        height: 500px;
+        bottom: 65%;
         box-shadow: 20px 20px 0px variables.$dandelion;
         padding:50px
     }
@@ -91,12 +91,16 @@
     a {
         color: variables.$twilight-blue;
     }
+    .icon-nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
     .socials-nav-bar {
         margin-bottom: 50px;
 
     }
     .contact-page-section {
-        margin-top: 26%;
+        margin-top: 12%;
         height: 410px;
         position: relative;
         .wrapper {
