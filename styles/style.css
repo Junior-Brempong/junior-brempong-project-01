@@ -308,10 +308,6 @@ button {
   text-transform: uppercase;
 }
 
-* {
-  border: 1px solid pink;
-}
-
 header {
   background-image: url(../Boat-Ride-Adventures-final-assets/home-header.jpg);
   height: 70vh;
@@ -1101,6 +1097,12 @@ footer p {
     width: 5rem;
     height: 2rem;
     fill: white;
+  }
+  .sandwhich-menu:active {
+    content: "";
+    background-color: #0D457F;
+    height: 85%;
+    width: 100%;
   }
 }
 @media (max-width: 406px) {

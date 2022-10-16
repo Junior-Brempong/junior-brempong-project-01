@@ -199,6 +199,13 @@
         height: 2rem;
         fill: white;
     }
+    .sandwhich-menu:active {
+        content: '';
+        background-color: variables.$twilight-blue;
+        height: 85%;
+        width: 100%;
+    }
+    // HOW TO ADD THINGS TO DROP DOWN MENU ABOVE??
 }
 
 @media (max-width: 406px) {
