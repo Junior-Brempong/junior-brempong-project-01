@@ -180,4 +180,105 @@
     }
 }
 
+@media (max-width: 430px) {
+    .nav-bar li {
+        display: none;
+    }
+    h1 {
+        font-size: 2.3rem;
+    }
+    header .wrapper .h1-header{
+        text-align: left;
+        margin-top: 65%;
+    }
+    .sandwhich-menu {
+        content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+        position: absolute;
+        right: 0;
+        width: 5rem;
+        height: 2rem;
+        fill: white;
+    }
+}
+
+@media (max-width: 406px) {
+    
+    // Header styles
+
+    header {
+        height: 50vh;
+        h1 {
+            font-size: 2rem;
+        }
+        .wrapper .h1-header {
+            margin-top: 50%;
+        }
+    }
+
+// Text boxes and img readjustments
+
+// Directory section styles
+
+    .directory .row-01 {
+        width: 70%;
+    }
+    .directory .row-02 {
+        width: 70%;
+    }
+    .programs-and-locations .our-programs-text-box {
+        width: 70%;
+    }
+    .programs-and-locations .left-image {
+        width: 80%;
+    }
+    .programs-and-locations .right-image {
+        width: 80%;
+    }
+    .programs-and-locations .new-locations-text-box {
+        width: 70%;
+    }
+
+// Extra Vacation Banner 
+
+    .extra-vacation-banner{
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+// Win a trip section styles
+
+    .win-a-trip .wrapper .img-container {
+        width: 60%;
+    }
+    .win-a-trip .text-container {
+            width: 75%;
+        }
+
+// Image Galler section styles 
+
+    .img-gallery li {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 370px) {
+    header h1 {
+            font-size: 1.85rem;
+        }
+    .directory {
+            margin-top: 35px;
+        }
+    .full-bleed-img .img-container {
+            width: 100%;
+            height: 300px;
+    }
+}
+
+@media (max-width: 345px) {
+    header h1 {
+        font-size: 1.65rem;
+    }
+}
+
 // NEED TO DO'S: FIX HEADER H1 & ADD SANDWHICH MENU (LOOK AT PREVIOUS ASSIGNMENT)

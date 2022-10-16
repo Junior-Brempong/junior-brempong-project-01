@@ -308,6 +308,10 @@ button {
   text-transform: uppercase;
 }
 
+* {
+  border: 1px solid pink;
+}
+
 header {
   background-image: url(../Boat-Ride-Adventures-final-assets/home-header.jpg);
   height: 70vh;
@@ -1077,5 +1081,85 @@ footer p {
   }
   header .wrapper .h1-header {
     margin-top: 55%;
+  }
+}
+@media (max-width: 430px) {
+  .nav-bar li {
+    display: none;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  header .wrapper .h1-header {
+    text-align: left;
+    margin-top: 65%;
+  }
+  .sandwhich-menu {
+    content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+    position: absolute;
+    right: 0;
+    width: 5rem;
+    height: 2rem;
+    fill: white;
+  }
+}
+@media (max-width: 406px) {
+  header {
+    height: 50vh;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  header .wrapper .h1-header {
+    margin-top: 50%;
+  }
+  .directory .row-01 {
+    width: 70%;
+  }
+  .directory .row-02 {
+    width: 70%;
+  }
+  .programs-and-locations .our-programs-text-box {
+    width: 70%;
+  }
+  .programs-and-locations .left-image {
+    width: 80%;
+  }
+  .programs-and-locations .right-image {
+    width: 80%;
+  }
+  .programs-and-locations .new-locations-text-box {
+    width: 70%;
+  }
+  .extra-vacation-banner {
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .win-a-trip .wrapper .img-container {
+    width: 60%;
+  }
+  .win-a-trip .text-container {
+    width: 75%;
+  }
+  .img-gallery li {
+    padding: 20px;
+  }
+}
+@media (max-width: 370px) {
+  header h1 {
+    font-size: 1.85rem;
+  }
+  .directory {
+    margin-top: 35px;
+  }
+  .full-bleed-img .img-container {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (max-width: 345px) {
+  header h1 {
+    font-size: 1.65rem;
   }
 }
