@@ -1,1 +1,25 @@
 @use "./variables";
+
+@media (max-width: 1375px) {
+    .blog-page .our-mission {
+        width: 29%;
+    }
+}
+
+@media (max-width: 1192px) {
+    .blog-page .our-mission {
+        width: 34%;
+}
+}
+
+@media (max-width: 1008px) {
+    .blog-page {
+     main {
+        position: relative;
+        width: 100%;
+     }
+     aside {
+        position: relative;
+     }
+    }
+}

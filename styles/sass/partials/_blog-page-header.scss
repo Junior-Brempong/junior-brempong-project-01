@@ -3,6 +3,7 @@
 .blog-page {
     header {
         background-image: url(../Boat-Ride-Adventures-final-assets/blog-header.jpg);
+        }
         .blog-underline {
             border-bottom: 2px solid variables.$dandelion;
         }
@@ -10,7 +11,5 @@
             color: variables.$solid-white;
             margin-top: 120px;
         }
+        
     }
-}
-
-

@@ -694,22 +694,36 @@ footer p {
 .blog-page header {
   background-image: url(../Boat-Ride-Adventures-final-assets/blog-header.jpg);
 }
-.blog-page header .blog-underline {
+.blog-page .blog-underline {
   border-bottom: 2px solid #FDD908;
 }
-.blog-page header h1 {
+.blog-page h1 {
   color: white;
   margin-top: 120px;
 }
 
+.blog-page main {
+  width: 100%;
+}
+
+.blog-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.blog-main .right-side {
+  padding-left: 17%;
+}
+.blog-main .left-side {
+  width: 40%;
+}
+.blog-main .left-side .our-mission {
+  width: 100%;
+}
+
 .blog-page {
   position: relative;
-}
-.blog-page main {
-  margin-top: 10%;
-  position: absolute;
-  right: 0;
-  width: 60%;
 }
 .blog-page main .next-destination-border {
   border-left: 5px solid #FDD908;
@@ -717,12 +731,13 @@ footer p {
 }
 .blog-page main .blog-img-container {
   width: 100%;
-  height: 700px;
+  height: 495px;
   padding-left: 1.5%;
+  position: relative;
 }
 .blog-page main .blog-img-container img {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  top: -20%;
   -webkit-box-shadow: -20px 20px 0px #FDD908;
           box-shadow: -20px 20px 0px #FDD908;
 }
@@ -760,7 +775,7 @@ footer p {
   display: flex;
 }
 .blog-page .comment-01 .comment-01-img-container {
-  width: 30%;
+  width: 400px;
 }
 .blog-page .comment-01 .comment-01-img-container img {
   width: 100%;
@@ -777,7 +792,7 @@ footer p {
   display: flex;
 }
 .blog-page .comment-02 .comment-02-img-container {
-  width: 30%;
+  width: 400px;
 }
 .blog-page .comment-02 .comment-02-img-container img {
   width: 100%;
@@ -848,10 +863,9 @@ footer p {
   margin-left: 20px;
 }
 
-.blog-page aside {
-  position: absolute;
-  top: 150%;
+.blog-page aside .wrapper {
   background-color: #0D457F;
+  position: relative;
 }
 .blog-page aside h4 {
   color: #FDD908;
@@ -861,7 +875,8 @@ footer p {
   color: white;
 }
 .blog-page .our-mission {
-  width: 20%;
+  width: 35%;
+  margin-top: 35%;
 }
 .blog-page .aside-text-container {
   padding: 25px;
@@ -883,18 +898,6 @@ footer p {
 .blog-page .aside-text-container ul li {
   margin-left: 10%;
   color: white;
-}
-
-.blog-page aside img {
-  position: relative;
-  right: 7%;
-  top: -45px;
-}
-
-.blog-page footer {
-  position: absolute;
-  width: 95%;
-  top: 460%;
 }
 
 @media (max-width: 1850px) {
@@ -1175,6 +1178,25 @@ footer p {
 @media (max-width: 345px) {
   header h1 {
     font-size: 1.65rem;
+  }
+}
+@media (max-width: 1375px) {
+  .blog-page .our-mission {
+    width: 29%;
+  }
+}
+@media (max-width: 1192px) {
+  .blog-page .our-mission {
+    width: 34%;
+  }
+}
+@media (max-width: 1008px) {
+  .blog-page main {
+    position: relative;
+    width: 100%;
+  }
+  .blog-page aside {
+    position: relative;
   }
 }
 @media (max-width: 1404px) {
