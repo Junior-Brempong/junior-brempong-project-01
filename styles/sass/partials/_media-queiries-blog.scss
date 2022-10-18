@@ -84,7 +84,15 @@
     }
 }
 
-@media (max-width: 1188px) {
+@media (max-width: 1150px) {
+    .blog-main .left-side {
+        width: 53%;
+    }
+}
+
+
+
+@media (max-width: 1020px) {
     
 // Left Side Changes
 
@@ -141,5 +149,96 @@
                 margin-top: 100px;
             }
         }
+    }
+}
+
+@media (max-width: 950px) {
+    .header {
+        text-align: center;
+        h1 {
+            margin-top: 215px;
+        }
+    }
+}
+
+@media (max-width: 831px) {
+    .blog-page .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: variables.$twilight-blue;
+        border: 5px solid variables.$dandelion;
+        height: 800px;
+        width: 100%;
+    }
+    .blog-page .form-wrapper .name-and-email-wrapper {
+        flex-direction: column;
+    }
+    .blog-page {
+        .users-email {
+            margin-top: 15%;
+            margin-right: 0;
+        }
+    }
+    .blog-page .form-wrapper .name-and-email-wrapper #users-email{
+        width: 100%;
+    }
+    .blog-page .form-wrapper .name-and-email-wrapper #users-name{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .blog-page {
+        header {
+            height: 50vh;
+        }
+        h1 {
+            font-size: 5rem;
+            margin-top: 120px;
+        }
+    }
+
+    .blog-side-image img {
+        width: 100%;
+    }
+
+    .blog-page {
+        .aside-text-container {
+            margin-top: 60px;
+        }
+    }
+    .blog-main .right-side .next-destination-border {
+        margin-top: 55px;
+    }
+}
+
+@media (max-width: 510px) {
+    .blog-page main .blog-text-container h3 {
+        font-size: 1.5rem;
+    }
+    .blog-page .comments .wrapper {
+        width: 95%;
+        h3 {
+            text-align: center;
+        }
+    }
+    .blog-page .myForm #comment {
+        width: 100%;
+    }
+}
+
+@media (max-width: 435px) {
+    .blog-page .blog-nav-bar li {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .blog-page main .blog-text-container h3 {
+        font-size: 1.3rem;
+    }
+    .blog-page .wrapper {
+        width: 95%;
     }
 }
