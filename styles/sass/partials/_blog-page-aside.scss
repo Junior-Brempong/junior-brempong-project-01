@@ -2,6 +2,11 @@
 
 // Aside box styles
 
+.blog-main .left-side {
+    width: 30%;
+}
+
+
 .blog-page {
     aside {
         .wrapper {
@@ -17,12 +22,11 @@
         }
     }
     .our-mission {
-        width: 35%;
+        width: 30%;
         margin-top: 35%;
     }
     .aside-text-container {
         padding: 25px;
-        padding-top: 0;
         .recent-posts {
             margin-top: 12%;
         }
@@ -39,11 +43,19 @@
     }
 }
 
+
+
 // Aside Img Styles
 
-// .blog-page aside img {
-//     position: absolute;
-    
-// }
+.blog-page aside {
+    .blog-side-image {
+        height: 400px;
+    }
+    img {
+        position: absolute;
+        top: -5%;
+        left: -6%;
+    }
+}
 
 // TO DO'S : FIX THE IMG ON THE ASIDE BY USING ABSOLUTE POSITIONING

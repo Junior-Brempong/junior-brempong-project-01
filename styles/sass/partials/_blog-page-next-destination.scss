@@ -9,10 +9,12 @@
 }
 
 
-
 .blog-main {
     display: flex;
     width: 100%;
+    .next-destination .wrapper {
+        margin-left: 9%;
+    }
     .right-side {
         padding-left: 17%;
     }
