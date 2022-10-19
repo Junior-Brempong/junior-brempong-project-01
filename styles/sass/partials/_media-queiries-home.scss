@@ -184,6 +184,9 @@
     .nav-bar li {
         display: none;
     }
+    .nav-bar .sandwhich-menu li {
+        display: block;
+    }
     h1 {
         font-size: 2.3rem;
     }
@@ -198,6 +201,8 @@
         width: 5rem;
         height: 2rem;
         fill: white;
+        display: flex;
+        flex-direction: column;
     }
     .sandwhich-menu:active {
         content: '';
@@ -285,6 +290,15 @@
 @media (max-width: 345px) {
     header h1 {
         font-size: 1.65rem;
+    }
+}
+
+@media (max-width: 311px) {
+    header .wrapper .h1-header {
+        margin-top: 75%;
+    }
+    header h1 {
+        font-size: 1.4rem;
     }
 }
 

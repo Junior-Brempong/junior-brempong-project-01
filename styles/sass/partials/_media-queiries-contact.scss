@@ -111,12 +111,17 @@
             padding-top: 20%;
         }        
     }
+    .sandwhich-menu li {
+        display: block;
+    }
     .contact-page .sandwhich-menu {
         content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
         position: absolute;
         right: 10%;
         width: 5rem;
         height: 3rem;
+        display: flex;
+        flex-direction: column;
     }
     .sandwhich-menu:active {
         content: '';
@@ -132,6 +137,29 @@
     }
 }
 
+// Drop down nav styles
+
+@media (max-width: 430px) {
+    .contact-page {
+    .nav-bar li {
+        display: none;
+    }
+    .sandwhich-menu li {
+        display: block;
+    }
+    h1 {
+        font-size: 2.3rem;
+    }
+    header .wrapper .h1-header{
+        text-align: left;
+        margin-top: 65%;
+    }
+    // HOW TO ADD THINGS TO DROP DOWN MENU ABOVE??
+}
+}
+
+
+
 @media (max-width: 367px) {
     .contact-page {
         header h1 {
@@ -139,9 +167,16 @@
         } 
         .sandwhich-menu {
             height: 2.5rem;
+            right: 0;
         }
         .users-email {
             margin-top: 35%;
         }       
+    }
+    .sandwhich-menu:active {
+        content: '';
+        background-color: variables.$twilight-blue;
+        height: 85%;
+        width: 100%;
     }
 }

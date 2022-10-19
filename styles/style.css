@@ -356,6 +356,10 @@ header ul a {
   margin: 0 25px;
 }
 
+.sandwhich-menu {
+  display: none;
+}
+
 .directory {
   margin-top: 200px;
 }
@@ -1118,6 +1122,9 @@ footer p {
   .nav-bar li {
     display: none;
   }
+  .nav-bar .sandwhich-menu li {
+    display: block;
+  }
   h1 {
     font-size: 2.3rem;
   }
@@ -1132,6 +1139,13 @@ footer p {
     width: 5rem;
     height: 2rem;
     fill: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .sandwhich-menu:active {
     content: "";
@@ -1198,6 +1212,14 @@ footer p {
 @media (max-width: 345px) {
   header h1 {
     font-size: 1.65rem;
+  }
+}
+@media (max-width: 311px) {
+  header .wrapper .h1-header {
+    margin-top: 75%;
+  }
+  header h1 {
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 1745px) {
@@ -1403,6 +1425,35 @@ footer p {
   .blog-page .blog-nav-bar li {
     display: none;
   }
+  .blog-page li {
+    display: none;
+  }
+  .blog-page header h1 {
+    padding-top: 20%;
+  }
+  .blog-page .sandwhich-menu li {
+    display: block;
+  }
+  .blog-page .sandwhich-menu {
+    content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+    position: absolute;
+    right: 10%;
+    width: 5rem;
+    height: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blog-page .sandwhich-menu:active {
+    content: "";
+    background-color: #0D457F;
+    height: 85%;
+    width: 100%;
+  }
 }
 @media (max-width: 390px) {
   .blog-page main .blog-text-container h3 {
@@ -1410,6 +1461,14 @@ footer p {
   }
   .blog-page .wrapper {
     width: 95%;
+  }
+}
+@media (max-width: 315px) {
+  .blog-page h1 {
+    font-size: 4rem;
+  }
+  .blog-page .sandwhich-menu {
+    right: 0;
   }
 }
 @media (max-width: 1404px) {
@@ -1523,12 +1582,22 @@ footer p {
   .contact-page header h1 {
     padding-top: 20%;
   }
+  .sandwhich-menu li {
+    display: block;
+  }
   .contact-page .sandwhich-menu {
     content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
     position: absolute;
     right: 10%;
     width: 5rem;
     height: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .sandwhich-menu:active {
     content: "";
@@ -1542,14 +1611,36 @@ footer p {
     width: 100%;
   }
 }
+@media (max-width: 430px) {
+  .contact-page .nav-bar li {
+    display: none;
+  }
+  .contact-page .sandwhich-menu li {
+    display: block;
+  }
+  .contact-page h1 {
+    font-size: 2.3rem;
+  }
+  .contact-page header .wrapper .h1-header {
+    text-align: left;
+    margin-top: 65%;
+  }
+}
 @media (max-width: 367px) {
   .contact-page header h1 {
     padding-top: 30%;
   }
   .contact-page .sandwhich-menu {
     height: 2.5rem;
+    right: 0;
   }
   .contact-page .users-email {
     margin-top: 35%;
+  }
+  .sandwhich-menu:active {
+    content: "";
+    background-color: #0D457F;
+    height: 85%;
+    width: 100%;
   }
 }

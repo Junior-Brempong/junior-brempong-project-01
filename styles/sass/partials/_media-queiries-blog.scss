@@ -232,7 +232,34 @@
     .blog-page .blog-nav-bar li {
         display: none;
     }
-}
+    .blog-page {             
+            li {
+                display: none;
+            }
+            header h1 {
+                padding-top: 20%;
+            }        
+            .sandwhich-menu li {
+                display: block;
+            }
+            .sandwhich-menu {
+                content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+                position: absolute;
+                right: 10%;
+                width: 5rem;
+                height: 3rem;
+                display: flex;
+                flex-direction: column;
+            }
+            .sandwhich-menu:active {
+                content: '';
+                background-color: variables.$twilight-blue;
+                height: 85%;
+                width: 100%;
+            }
+        }
+    }
+
 
 @media (max-width: 390px) {
     .blog-page main .blog-text-container h3 {
@@ -240,5 +267,14 @@
     }
     .blog-page .wrapper {
         width: 95%;
+    }
+}
+
+@media (max-width: 315px) {
+    .blog-page h1 {
+        font-size: 4rem;
+    }
+    .blog-page .sandwhich-menu {
+        right: 0;
     }
 }
