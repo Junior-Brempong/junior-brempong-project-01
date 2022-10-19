@@ -389,48 +389,40 @@ header ul a {
 }
 
 .directory .text-box-01::before {
-  content: url("../Boat-Ride-Adventures-final-assets/location-dot-solid.svg");
+  content: url("../Boat-Ride-Adventures-final-assets/test-location-map-yellow.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
   position: absolute;
-  left: -30px;
-  top: 5px;
-  background-color: #FDD908;
-  border-radius: 50%;
+  left: -50px;
+  top: -3px;
 }
 .directory .text-box-02::before {
-  content: url("../Boat-Ride-Adventures-final-assets/users-line-solid.svg");
+  content: url("../Boat-Ride-Adventures-final-assets/test-community-icon2.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
   position: absolute;
-  left: -30px;
-  top: 5px;
-  background-color: #FDD908;
-  border-radius: 50%;
+  left: -50px;
+  top: -3px;
 }
 .directory .text-box-03::before {
-  content: url("../Boat-Ride-Adventures-final-assets/file-solid.svg");
+  content: url("../Boat-Ride-Adventures-final-assets/test-page-icon.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
   position: absolute;
-  left: -30px;
-  top: 5px;
-  background-color: #FDD908;
-  border-radius: 50%;
+  left: -50px;
+  top: -3px;
 }
 .directory .text-box-04::before {
-  content: url("../Boat-Ride-Adventures-final-assets/phone-flip-solid.svg");
+  content: url("../Boat-Ride-Adventures-final-assets/test-yellow.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
   position: absolute;
-  left: -30px;
-  top: 5px;
-  background-color: #FDD908;
-  border-radius: 50%;
+  left: -50px;
+  top: -3px;
 }
 
 h3 {
@@ -1394,7 +1386,7 @@ footer p {
     height: 50vh;
   }
   .blog-page h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-top: 120px;
   }
   .blog-side-image img {
@@ -1437,7 +1429,7 @@ footer p {
   .blog-page .sandwhich-menu {
     content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
     position: absolute;
-    right: 10%;
+    right: 0;
     width: 5rem;
     height: 3rem;
     display: -webkit-box;
@@ -1494,6 +1486,9 @@ footer p {
   .contact-page .contact-page-section {
     margin-top: 0;
     height: 100%;
+  }
+  .contact-page .contact-page-section p {
+    margin-left: 0;
   }
   .contact-page .form-wrapper {
     position: relative;
@@ -1588,7 +1583,7 @@ footer p {
   .contact-page .sandwhich-menu {
     content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
     position: absolute;
-    right: 10%;
+    right: 0;
     width: 5rem;
     height: 3rem;
     display: -webkit-box;

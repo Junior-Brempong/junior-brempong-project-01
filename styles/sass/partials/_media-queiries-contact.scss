@@ -34,6 +34,9 @@
         .contact-page-section {
             margin-top: 0;
             height: 100%;
+            p {
+                margin-left: 0;
+            }
         }
         .form-wrapper {
             position: relative;
@@ -117,7 +120,7 @@
     .contact-page .sandwhich-menu {
         content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
         position: absolute;
-        right: 10%;
+        right: 0;
         width: 5rem;
         height: 3rem;
         display: flex;

@@ -26,51 +26,39 @@
 
 .directory {
     .text-box-01::before {
-        content: url('../Boat-Ride-Adventures-final-assets/location-dot-solid.svg');
+        content: url('../Boat-Ride-Adventures-final-assets/test-location-map-yellow.svg');
         width: 25px;
         height: 30px;
         display: inline-block;
         position: absolute;
-        left: -30px;
-        top: 5px;
-        background-color: variables.$dandelion;
-        border-radius: 50%;
-        // NOTE: SVG FILE IMG WAS TOO LARGE TO ADJUST THE BACKGROUND COLOR
+        left: -50px;
+        top: -3px;
     }
     .text-box-02::before {
-        content: url('../Boat-Ride-Adventures-final-assets/users-line-solid.svg');
+        content: url('../Boat-Ride-Adventures-final-assets/test-community-icon2.svg');
         width: 25px;
         height: 30px;
         display: inline-block;
         position: absolute;
-        left: -30px;
-        top: 5px;
-        background-color: variables.$dandelion;
-        border-radius: 50%;
-        // background-size: cover;
+        left: -50px;
+        top: -3px;
     }
     .text-box-03::before {
-        content: url('../Boat-Ride-Adventures-final-assets/file-solid.svg');
+        content: url('../Boat-Ride-Adventures-final-assets/test-page-icon.svg');
         width: 25px;
         height: 30px;
         display: inline-block;
         position: absolute;
-        left: -30px;
-        top: 5px;
-        background-color: variables.$dandelion;
-        border-radius: 50%;
-        // background-size: cover;
+        left: -50px;
+        top: -3px;
     }
     .text-box-04::before {
-        content: url('../Boat-Ride-Adventures-final-assets/phone-flip-solid.svg');
+        content: url('../Boat-Ride-Adventures-final-assets/test-yellow.svg');
         width: 25px;
         height: 30px;
         display: inline-block;
         position: absolute;
-        left: -30px;
-        top: 5px;
-        background-color: variables.$dandelion;
-        border-radius: 50%;
-        // background-size: cover;
+        left: -50px;
+        top: -3px;
     }
 }
