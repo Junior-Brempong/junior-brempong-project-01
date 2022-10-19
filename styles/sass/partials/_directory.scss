@@ -33,8 +33,9 @@
         position: absolute;
         left: -30px;
         top: 5px;
-        // background-color: variables.$dandelion;
-        // background-size: cover; --> CAN I ADD A BACKGROUND COLOR/BORDER RADIUS TO THESE PSEUDO ELEMENTS?
+        background-color: variables.$dandelion;
+        border-radius: 50%;
+        // NOTE: SVG FILE IMG WAS TOO LARGE TO ADJUST THE BACKGROUND COLOR
     }
     .text-box-02::before {
         content: url('../Boat-Ride-Adventures-final-assets/users-line-solid.svg');
@@ -44,7 +45,8 @@
         position: absolute;
         left: -30px;
         top: 5px;
-        // background-color: variables.$dandelion;
+        background-color: variables.$dandelion;
+        border-radius: 50%;
         // background-size: cover;
     }
     .text-box-03::before {
@@ -55,7 +57,8 @@
         position: absolute;
         left: -30px;
         top: 5px;
-        // background-color: variables.$dandelion;
+        background-color: variables.$dandelion;
+        border-radius: 50%;
         // background-size: cover;
     }
     .text-box-04::before {
@@ -66,7 +69,8 @@
         position: absolute;
         left: -30px;
         top: 5px;
-        // background-color: variables.$dandelion;
+        background-color: variables.$dandelion;
+        border-radius: 50%;
         // background-size: cover;
     }
 }

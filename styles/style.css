@@ -392,6 +392,8 @@ header ul a {
   position: absolute;
   left: -30px;
   top: 5px;
+  background-color: #FDD908;
+  border-radius: 50%;
 }
 .directory .text-box-02::before {
   content: url("../Boat-Ride-Adventures-final-assets/users-line-solid.svg");
@@ -401,6 +403,8 @@ header ul a {
   position: absolute;
   left: -30px;
   top: 5px;
+  background-color: #FDD908;
+  border-radius: 50%;
 }
 .directory .text-box-03::before {
   content: url("../Boat-Ride-Adventures-final-assets/file-solid.svg");
@@ -410,6 +414,8 @@ header ul a {
   position: absolute;
   left: -30px;
   top: 5px;
+  background-color: #FDD908;
+  border-radius: 50%;
 }
 .directory .text-box-04::before {
   content: url("../Boat-Ride-Adventures-final-assets/phone-flip-solid.svg");
@@ -419,6 +425,8 @@ header ul a {
   position: absolute;
   left: -30px;
   top: 5px;
+  background-color: #FDD908;
+  border-radius: 50%;
 }
 
 h3 {
