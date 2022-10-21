@@ -309,7 +309,7 @@ button {
 }
 
 header {
-  background-image: url(../Boat-Ride-Adventures-final-assets/home-header.jpg);
+  background-image: url(../assets/home-header.jpg);
   height: 70vh;
   background-size: cover;
   background-position: center;
@@ -390,7 +390,7 @@ header ul a {
 }
 
 .directory .text-box-01::before {
-  content: url("../Boat-Ride-Adventures-final-assets/test-location-map-yellow.svg");
+  content: url("../assets/test-location-map-yellow.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
@@ -399,7 +399,7 @@ header ul a {
   top: -3px;
 }
 .directory .text-box-02::before {
-  content: url("../Boat-Ride-Adventures-final-assets/test-community-icon2.svg");
+  content: url("../assets/test-community-icon2.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
@@ -408,7 +408,7 @@ header ul a {
   top: -3px;
 }
 .directory .text-box-03::before {
-  content: url("../Boat-Ride-Adventures-final-assets/test-page-icon.svg");
+  content: url("../assets/test-page-icon.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
@@ -417,7 +417,7 @@ header ul a {
   top: -3px;
 }
 .directory .text-box-04::before {
-  content: url("../Boat-Ride-Adventures-final-assets/test-yellow.svg");
+  content: url("../assets/test-yellow.svg");
   width: 25px;
   height: 30px;
   display: inline-block;
@@ -576,7 +576,7 @@ footer p {
   display: block;
 }
 .contact-page header {
-  background-image: url(../Boat-Ride-Adventures-final-assets/contact-header.jpg);
+  background-image: url(../assets/contact-header.jpg);
 }
 .contact-page header h1 {
   font-family: "IM Fell English", serif;
@@ -693,7 +693,7 @@ footer p {
 }
 
 .blog-page header {
-  background-image: url(../Boat-Ride-Adventures-final-assets/blog-header.jpg);
+  background-image: url(../assets/blog-header.jpg);
 }
 .blog-page .blog-underline {
   border-bottom: 2px solid #FDD908;
@@ -1129,7 +1129,7 @@ footer p {
     margin-top: 65%;
   }
   .sandwhich-menu {
-    content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+    content: url(../assets/bars-solid.svg);
     position: absolute;
     right: 0;
     width: 5rem;
@@ -1437,7 +1437,7 @@ footer p {
     display: block;
   }
   .blog-page .sandwhich-menu {
-    content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+    content: url(../assets/bars-solid.svg);
     position: absolute;
     right: 0;
     width: 5rem;
@@ -1591,7 +1591,7 @@ footer p {
     display: block;
   }
   .contact-page .sandwhich-menu {
-    content: url(../Boat-Ride-Adventures-final-assets/bars-solid.svg);
+    content: url(../assets/bars-solid.svg);
     position: absolute;
     right: 0;
     width: 5rem;
