@@ -237,6 +237,8 @@
 @media (max-width: 435px) {
     .blog-page .blog-nav-bar li {
         display: none;
+        font-size: 1.25rem;
+        line-height: 2rem;
     }
     .blog-page {             
             li {
@@ -253,11 +255,11 @@
                 position: absolute;
                 right: 0;
                 width: 5rem;
-                height: 3rem;
+                height: 2rem;
                 display: flex;
                 flex-direction: column;
             }
-            .sandwhich-menu:active {
+            .sandwhich-menu:hover {
                 content: '';
                 background-color: variables.$twilight-blue;
                 height: 85%;
