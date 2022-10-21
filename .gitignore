@@ -2,3 +2,5 @@ node_modules
 **/.DS_Store
 *.pdf
 *.zip
+
+# Realized I did not add svg files to the gitignore after the fact :( 
