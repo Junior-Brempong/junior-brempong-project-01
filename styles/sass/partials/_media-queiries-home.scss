@@ -39,6 +39,9 @@
             top: -3%;
         }
     }
+    .directory {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 950px) {
@@ -191,7 +194,7 @@
         font-size: 2.3rem;
     }
     header .wrapper .h1-header{
-        text-align: left;
+        text-align: center;
         margin-top: 65%;
     }
     .sandwhich-menu {
